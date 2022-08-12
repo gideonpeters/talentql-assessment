@@ -1,6 +1,6 @@
 ## Frontend Assessment
 
-[See it live!](https://wole-joko.netlify.app/). Also, there's some [code documentation here](https://chalu.github.io/wole-joko/)
+[See it live!](https://gideon-talentql-assessment.netlify.app/). Also, there's some [code documentation here](https://github.com/gideonpeters/talentql-assessment/blob/main/DETAILS.md)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e6c558d8320348dd8c32eb9b60a9de8f)](https://www.codacy.com/gh/gideonpeters/talentql-assessment/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gideonpeters/talentql-assessment&amp;utm_campaign=Badge_Grade) [![Netlify Status](https://api.netlify.com/api/v1/badges/593f43f0-772d-4572-b693-0b5e27f36a6e/deploy-status)](https://app.netlify.com/sites/gideon-talentql-assessment/deploys)
 

@@ -51,6 +51,10 @@ const startApp = async () => {
     previousButton.removeAttribute("disabled");
   };
 
+  const setPageLabel = () => {
+    pageViewLabel.textContent = `Showing Page ${currentPage}`;
+  };
+
   const fetchData = async () => {
     try {
       if (dataTable[currentPage]) {
@@ -88,6 +92,8 @@ const startApp = async () => {
       currentRowChildren[1].textContent = rowData.gender;
       currentRowChildren[2].textContent = rowData.age;
     }
+
+    setPageLabel();
   };
 
   disablePreviousButton();

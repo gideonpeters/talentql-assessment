@@ -1,5 +1,10 @@
 ## Frontend Assessment
 
+[See it live!](https://wole-joko.netlify.app/). Also, there's some [code documentation here](https://chalu.github.io/wole-joko/)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e6c558d8320348dd8c32eb9b60a9de8f)](https://www.codacy.com/gh/gideonpeters/talentql-assessment/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gideonpeters/talentql-assessment&amp;utm_campaign=Badge_Grade) [![Netlify Status](https://api.netlify.com/api/v1/badges/593f43f0-772d-4572-b693-0b5e27f36a6e/deploy-status)](https://app.netlify.com/sites/gideon-talentql-assessment/deploys)
+
+---
 Build and deploy a very simple frontend app for paginated data, that does the following
 1.  Fetches (randomised) data from `https://randomapi.com/api/8csrgnjw?key=LEIX-GF3O-AG7I-6J84` which can be paged by appending `&page=N` where N is the page you want to fetch. E.g appending `&page=1` retrieves the first page, while `&page=4` retrieves the 4th page.
 2.  Displays the fetched data in a HTML table with 5 rows (the API only returns 5 records), and allows the user to page next/previous with buttons in the UI

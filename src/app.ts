@@ -79,7 +79,7 @@ const startApp = async () => {
       const rowCount = i + (currentPage - 1) * 5 + 1;
       const rowData = currentPageData.find((res) => res.row === rowCount);
 
-      tableRows[i].setAttribute("data-entryid", `${rowCount}`);
+      tableRows[i].setAttribute("data-entryid", `${rowData.id}`);
       console.log("row", tableRows);
 
       const currentRowChildren = tableRows[i].children;

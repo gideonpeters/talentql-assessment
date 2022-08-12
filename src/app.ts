@@ -3,6 +3,7 @@ const startApp = async () => {
   const baseURL = (page: number): string =>
     `https://randomapi.com/api/8csrgnjw?key=LEIX-GF3O-AG7I-6J84&page=${page}`;
 
+  // hash to memoise data values
   let dataTable = {};
 
   // declare DOM elements
@@ -19,11 +20,6 @@ const startApp = async () => {
   const tableBody = document.querySelector(
     "[data-sink]"
   ) as HTMLTableSectionElement;
-
-  console.log(pageViewLabel);
-  console.log(previousButton);
-  console.log(nextButton);
-  console.log(tableBody);
 
   const onNextButtonClick = async () => {
     currentPage += 1;
